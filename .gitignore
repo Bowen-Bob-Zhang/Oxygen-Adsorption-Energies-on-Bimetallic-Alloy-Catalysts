@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.env
+*.key
+data/raw/
+data/processed/
+artifacts/
+*.docx
+*.pdf
+

@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: oxygen-adsorption-ml
+Version: 0.1.0
+Summary: Surface-level atomic oxygen adsorption energy regression on bimetallic alloys
+Requires-Python: >=3.11
+Requires-Dist: numpy<3,>=1.26
+Requires-Dist: pandas<3,>=2.0
+Requires-Dist: scikit-learn<2,>=1.3
+Requires-Dist: joblib<2,>=1.3
+Requires-Dist: torch<3,>=2.5

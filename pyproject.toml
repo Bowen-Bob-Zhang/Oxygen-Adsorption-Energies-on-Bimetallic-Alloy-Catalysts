@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oxygen-adsorption-ml"
+version = "0.1.0"
+description = "Surface-level atomic oxygen adsorption energy regression on bimetallic alloys"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=1.26,<3",
+  "pandas>=2.0,<3",
+  "scikit-learn>=1.3,<2",
+  "joblib>=1.3,<2",
+  "torch>=2.5,<3",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
